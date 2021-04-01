@@ -1,0 +1,132 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+html{
+	width: 1400px;
+    height: 800px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Share:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caudex&display=swap');
+
+
+body{
+	background-image: url( "images/fondaccueil.png");
+	background-repeat: no-repeat; 
+	background-color:#E5E5E5;
+	color: #BCC9B8;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	
+	}
+
+
+ h1 a{
+	width: 50%;
+	color: #BCC9B8;
+	box-sizing: border-box;
+	font-family: 'Caudex', serif;
+
+    min-width: 400px; /*adapter a l'ecran*/
+    text-align: justify;
+    width: 350px; /* On a indiqué une largeur (obligatoire) */
+    margin: 50px;
+    text-align: right;
+    letter-spacing: .1em;
+
+}
+
+h2{
+	width: 50%;
+    min-width: 400px; /*adapter a l'ecran*/
+    text-align: justify;
+    width: 350px; /* On a indiqué une largeur (obligatoire) */
+    margin: auto;
+    padding: 25px;
+    font-size: medium;
+    word-spacing: .1em;
+
+
+
+}
+
+p {
+    width: 50%;
+    min-width: 400px; /*adapter a l'ecran*/
+    text-align: justify;
+    width: 350px; /* On a indiqué une largeur (obligatoire) */
+    margin: auto;
+    word-spacing: .1em;
+    line-height: 1.5;
+}
+
+.container {
+	
+	width: 500px;
+	height: 400px;
+	margin: 100px auto;
+	margin-top: 450px;
+}
+.container h1 h2 p{
+	
+	position: relative;
+	text-align: center;
+	top: 80%;
+	
+
+}
+
+.oeil1{
+	
+	position: relative;
+	float: left;
+	margin-left: 150px;
+	top: -600px;
+	filter: drop-shadow(10px 10px 5px rgba(0,0,0,0.3));
+	}
+
+.oeil2{
+	
+	position: relative;
+	float: right;
+	margin-right: 150px;
+	top: -350px;
+	filter: drop-shadow(10px 10px 5px rgba(0,0,0,0.3));
+
+	/*margin-top: 100px;
+	filter: drop-shadow(10px 10px 5px rgba(0,0,0,0.3));
+	margin-left: 1100px;
+	top: 100px;*/
+		
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
